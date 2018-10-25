@@ -1,0 +1,23 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de noticias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhoncrisley Lins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhoncrisley/node_study-portal_noticias.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhoncrisley/node_study-portal_noticias/issues"
+  },
+  "homepage": "https://github.com/dhoncrisley/node_study-portal_noticias#readme"
+}
