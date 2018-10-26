@@ -1,13 +1,11 @@
-var express = require('express');
-var app = express();
-
-app.get('/', function(req, res){
-    res.send("<html><body>Portal de notícias</body></html>");
-})
-app.get('/tecnology', function(req, res){
-    res.send("<html><body>Retornou tecnology</body></html>");
-})
+var app = require('./config/server');
+var rotaNoticias = require('./app/routes/noticias');
+var rotaHome = require('./app/routes/home');
+var rotaForm = require('./app/routes/formulario_inclusao_noticia');
+rotaNoticias(app);
+rotaHome(app);
+rotaForm(app);
 
 app.listen(3000, function(){
-    console.log('subiu');
+    console.log('||Servidor iniciado||');
 })
